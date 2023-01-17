@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>loadscreen by dakom for Sigma SchoolRP (adns-tech.fr)</title>
+</head>
+    <body>
+        <div class="cursor"></div>
+        <div class="container">
+            <div class="socials">
+                <div class="social discord">
+                    <i class="fa-brands fa-discord"></i>
+                    <p class="text">Discord</p>
+                </div>
+                <div class="social youtube">
+                    <i class="fa-brands fa-youtube"></i>
+                    <p class="text">YouTube</p>
+                </div>
+                <div class="social tiktok">
+                    <i class="fa-brands fa-tiktok"></i>
+                    <p class="text">TikTok</p>
+                </div>
+            </div>
+            
+            <p class="tips">Astuce: <span class="changeTips" id="tipChange">Aretter de danser a l'aide de la touche <strong>X</strong></span></p>
+            <canvas id="canvas" width="1280" height="1080"></canvas>
+            <img src="./img/logo.png" class="sigmaSchool" draggable="false">
+
+            <div class="drawing">
+                <button class="paper-btn" id="restorePaint">Recommencer</button>
+            </div>
+
+            <!-- <img src="./img/istockphoto-500786898-1024x1024.png" class="basdutableau" alt=""> -->
+        </div>
+
+        <script src="./js/drawLine.js"></script>
+        <script src="./js/script.js"></script>
+    </body>
+</html>
